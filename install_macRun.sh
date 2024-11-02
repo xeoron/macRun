@@ -3,8 +3,8 @@
 #Date: 9/25/2016
 #version 0.2.5
 #Released under the GPL v2 or higher
-NAME="clmacRun"
-EXT="sh"
+NAME="macRun"
+EXT="pl"
 FILE="$NAME.$EXT"
 LOCATION="/opt/local/bin/"
 echo "$FILE installer:";
