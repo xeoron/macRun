@@ -1,6 +1,8 @@
 # macRun
 This releases the macOS gatekeeper flag on a program downloaded from the internet that is not a signed-app.
-Not unsigned apps on MacOS if compiled in a system will run fine, but it's downloaded from the Net then 
-Gatekeeper gives the app a “quarantined” flag that is was downloaded from a arbitrary websites.
+This is not the case for unsigned apps on MacOS if compiled in the system built or a custom script-- 
+they will will run fine, but it's downloaded from the Net that activates Gatekeeper.  Gatekeeper gives a download app a “quarantined” flag that is was downloaded from a arbitrary websites and if unsigned takes more action.
 
-Usage:  macRun -u program_to_unflag
+To install: sudo ./install_macRun.sh
+
+To use: macRun -u program_to_unflag
